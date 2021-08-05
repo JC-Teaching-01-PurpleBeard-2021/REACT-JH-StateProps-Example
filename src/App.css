@@ -1,0 +1,67 @@
+.App {
+	background-color: beige;
+	height: 80vh;
+	width: 80vw;
+	border-radius: 15px;
+	margin: 30px auto;
+	border: 3px solid green;
+	box-shadow: 0 8px 6px -6px black;
+}
+
+.Parent {
+	background-color: lightblue;
+	height: 60vh;
+	width: 60vw;
+	border-radius: 15px;
+	margin: 30px auto;
+	border: 3px solid blue;
+	box-shadow: 0 8px 6px -6px black;
+}
+
+.ChildSelect {
+	background-color: lightcoral;
+	height: 10vh;
+	width: 50vw;
+	border-radius: 15px;
+	margin: 30px auto;
+	border: 3px solid red;
+	box-shadow: 0 8px 6px -6px black;
+	display: flex;
+	justify-content: center;
+}
+
+.ChildList {
+	background-color: lightpink;
+	/* height: 30vh; */
+	width: 50vw;
+	border-radius: 15px;
+	margin: 30px auto;
+	border: 3px solid darkmagenta;
+	box-shadow: 0 8px 6px -6px black;
+}
+
+h1 {
+	text-align: center;
+}
+
+h1 a {
+	color: green;
+	text-decoration: none;
+}
+
+button {
+	background-color: lightgreen;
+	margin: 0 25px;
+}
+
+li {
+	margin: 20px 50px;
+	font-weight: bold;
+	font-size: large;
+	text-align: center;
+	list-style-type: none;
+	padding: 10px;
+	border-radius: 15px;
+	box-shadow: 0 8px 6px -6px black;
+	border: 2px solid white
+}
